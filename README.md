@@ -12,8 +12,6 @@ IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Back
 * **mmcv**: >=2.0.0
 * **timm**: 1.0.7
 
-------------------------
-
 # Environment Configuration
 
 To set up the environment, run the following commands:
