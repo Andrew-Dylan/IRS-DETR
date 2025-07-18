@@ -4,6 +4,10 @@ IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Back
 * **Operating System**: Ubuntu 22.04 v1.5
 * **GPU**: NVIDIA RTX-3090 24GB
 
+# Dataset Download at:
+Train, Val, Test
+**ISDD Dataset**: https://github.com/yaqihan-9898/ISDD
+
 # Experiments Setup
 
 * **Python**: 3.10.14
