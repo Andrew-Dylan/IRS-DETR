@@ -6,7 +6,7 @@ IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Back
 
 # Dataset Download at:
 Train, Val, Test
-**ISDD Dataset**: https://github.com/yaqihan-9898/ISDD
+* **ISDD Dataset**: https://github.com/yaqihan-9898/ISDD
 
 # Experiments Setup
 
