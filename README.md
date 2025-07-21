@@ -14,7 +14,6 @@ IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Back
 
 To set up the environment, run the following commands:
 
-* `pip uninstall ultralytics`
 * `python setup.py develop`
 
 # Dataset Download at:
