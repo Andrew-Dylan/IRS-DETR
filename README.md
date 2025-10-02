@@ -3,7 +3,7 @@ IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Back
 
 # Experiments Environment
 * **Operating System**: Ubuntu 22.04 v1.5
-* **GPU**: NVIDIA RTX-3090 24GB
+* **GPU**: NVIDIA GeForce RTX-3090 24GB
 * **Python**: 3.10.14
 * **PyTorch**: 2.2.2
 * **torchvision**: 0.17.2+cu121
