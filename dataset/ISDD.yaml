@@ -1,4 +1,3 @@
-# dataset path
 # download from https://github.com/yaqihan-9898/ISDD
 path: /your/dataset/path
 train: ./images/train
