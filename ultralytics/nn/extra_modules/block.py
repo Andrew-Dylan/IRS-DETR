@@ -7,11 +7,6 @@ import torch.nn.functional as F
 from ..modules.block import C2f
 from ..modules.conv import Conv
 
-
-# ============================================================
-# my modules
-# ============================================================
-
 class WaveletPool(nn.Module):
     def __init__(self):
         super(WaveletPool, self).__init__()
