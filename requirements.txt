@@ -1,4 +1,3 @@
-# Ultralytics requirements
 # Example: pip install -r requirements.txt
 
 # Base ----------------------------------------
