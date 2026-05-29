@@ -4,7 +4,7 @@ from pathlib import Path
 warnings.filterwarnings('ignore')
 from ultralytics import RTDETR
 
-"""IRS-DETR 训练管线"""
+"""IRS-DETR training pipeline"""
 
 # ============================================================
 # 配置文件
