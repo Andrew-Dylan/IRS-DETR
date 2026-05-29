@@ -5,7 +5,7 @@ from ultralytics import RTDETR
 import os
 from pathlib import Path
 
-# 所有待测配置文件（自动发现，避免漏配或路径拼写错误）
+# config files
 EXP_DIR = Path('Exp-model')
 config_files = [str(p) for p in sorted(EXP_DIR.rglob('*.yaml'))]
 
