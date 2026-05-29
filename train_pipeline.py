@@ -21,7 +21,7 @@ BASE_PROJECT = 'runs/train'
 # ============================================================
 # Pipeline
 # ============================================================
-EXP_DIR = Path('Exp-model')
+EXP_DIR = Path('EXP-Model')
 
 
 def discover_yamls():
