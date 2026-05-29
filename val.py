@@ -4,7 +4,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import RTDETR
 
 if __name__ == '__main__':
-    model_path = 'your_model.pt' 
+    model_path = 'your_model.pt'  # your model path 
     model = RTDETR(model_path)
     result = model.val(
         data='dataset/data.yaml',
