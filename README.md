@@ -12,22 +12,6 @@ Infrared ship detection in maritime surveillance often suffers from complex sea-
 
 ---
 
-## 🌟 Key Innovations
-
-1. **EFAModule (Efficient Feature Attention Module)**
-   - Integrates **Single-Head Self-Attention (SHSA)** with group normalization and FFN directly inside the `C2f` block.
-   - Captures long-range dependencies across ship salient structures while drastically reducing parameter and FLOP overhead compared to multi-head self-attention.
-
-2. **WaveletPool & WaveletUnPool (Wavelet-based Sampling)**
-   - Replaces conventional strided convolutions and bilinear/nearest upsampling with discrete wavelet transform (DWT) basis filters ($LL, LH, HL, HH$).
-   - Preserves high-frequency spatial texture and fine edge contours of small vessels during multi-scale downsampling and feature reconstruction.
-
-3. **MFPM (Multi-Frequency Pyramid Module)**
-   - Combines 2D Discrete Cosine Transform (DCT) multi-spectral channel attention with External Attention ($O(N \cdot S)$ linear complexity).
-   - Suppresses sea clutter and non-uniform background noise while adaptively weighting salient ship frequency components.
-
----
-
 ## 📂 Project Structure
 
 ```text
