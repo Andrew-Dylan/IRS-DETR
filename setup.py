@@ -8,7 +8,7 @@ from setuptools import setup
 # Settings
 FILE = Path(__file__).resolve()
 PARENT = FILE.parent  # root directory
-README = (PARENT / 'README.md').read_text(encoding='utf-8')
+README = (PARENT / 'README.md').read_text(encoding='utf-8') if (PARENT / 'README.md').exists() else ''
 
 
 def get_version():

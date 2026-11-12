@@ -7,7 +7,7 @@ if __name__ == '__main__':
     model_path = 'your_model.pt'  # your model path 
     model = RTDETR(model_path)
     result = model.val(
-        data='dataset/data.yaml',
+        data='dataset/ISDD.yaml',
         split='test',
         imgsz=640,
         batch=4,

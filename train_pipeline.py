@@ -9,7 +9,8 @@ from ultralytics import RTDETR
 # ============================================================
 # 配置文件
 # ============================================================
-DATA_YAML = 'dataset/ISDD.yaml'
+ROOT = Path(__file__).resolve().parent
+DATA_YAML = str(ROOT / 'dataset/ISDD.yaml')
 IMGSZ = 640
 EPOCHS = 300
 BATCH = 4
@@ -21,7 +22,7 @@ BASE_PROJECT = 'runs/train'
 # ============================================================
 # Pipeline
 # ============================================================
-EXP_DIR = Path('EXP-Model')
+EXP_DIR = ROOT / 'EXP-Model'
 
 
 def discover_yamls():
@@ -35,7 +36,7 @@ def discover_yamls():
         rel = yaml_path.relative_to(EXP_DIR)
         parts = rel.parts
         if len(parts) > 1:
-            category = parts[0]  # 'ablation-exp-model' or 'comparison-backbone'
+            category = parts[0].lower()  # 'ablation-exp-model' or 'comparison-backbone'
             if category.startswith('ablation'):
                 categories['ablation'].append(yaml_path)
             elif category.startswith('comparison'):

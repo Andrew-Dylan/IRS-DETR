@@ -6,10 +6,13 @@ import os
 from pathlib import Path
 
 # config files
-EXP_DIR = Path('Exp-model')
+ROOT = Path(__file__).resolve().parent
+EXP_DIR = ROOT / 'EXP-Model'
 config_files = [str(p) for p in sorted(EXP_DIR.rglob('*.yaml'))]
 
 if __name__ == '__main__':
+    if not config_files:
+        print(f"No YAML config files found in {EXP_DIR}")
     for config_path in config_files:
         config_name = os.path.basename(config_path)
         print(f"\n{'='*60}")
