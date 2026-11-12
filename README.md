@@ -173,9 +173,11 @@ python detect.py
 If you find this work or code repository useful for your research, please consider citing:
 
 ```bibtex
-@article{irsdetr2026,
-  title={IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea–Air Backgrounds},
+@article{tang2025irs,
+  title={IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Backgrounds},
+  author={Tang, Chunming and Ji, Zhuangzhi},
   journal={IEEE Geoscience and Remote Sensing Letters},
-  year={2026}
+  year={2025},
+  publisher={IEEE}
 }
 ```
