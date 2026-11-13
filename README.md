@@ -4,33 +4,32 @@
 
 ```text
 IRS-DETR/
-├── EXP-Model/                     # Model architecture YAML definitions
-│   ├── IRS-DETR.yaml              # Proposed full IRS-DETR model
-│   ├── RT-DETR.yaml               # Baseline RT-DETR model
-│   └── Ablation-exp-model/        # Ablation study configurations
-│       ├── EFAModule.yaml         # Ablation: EFAModule backbone only
-│       └── WaveletSample.yaml     # Ablation: Wavelet sampling only
-├── dataset/                       # Dataset configuration files
-│   └── ISDD.yaml                  # Dataset configuration for ISDD
-├── ultralytics/                   # Core engine & neural network definitions
+├── EXP-Model/                     
+│   ├── IRS-DETR.yaml             
+│   ├── RT-DETR.yaml               
+│   └── Ablation-exp-model/        
+│       ├── EFAModule.yaml         
+│       └── WaveletSample.yaml     
+├── dataset/                      
+│   └── ISDD.yaml                 
+├── ultralytics/                   
 │   ├── nn/
-│   │   ├── extra_modules/         # Innovative blocks (EFAModule, WaveletPool, MFPM, etc.)
-│   │   └── tasks.py               # Model parser & registry
+│   │   ├── extra_modules/        
+│   │   └── tasks.py               
 │   └── ...
-├── train_pipeline.py              # Automated multi-model training pipeline
-├── main_profile.py                # Model profiling script (Parameters, GFLOPs, Fusing)
-├── val.py                         # Model evaluation & testing script
-├── detect.py                      # Inference & visualization script
-├── requirements.txt               # Environment dependencies
-└── setup.py                       # Project setup & packaging
-```
+├── train_pipeline.py              
+├── main_profile.py                
+├── val.py                        
+├── detect.py                     
+├── requirements.txt               
+└── setup.py                       
 
 ---
 
 ## 🛠️ Environment & Installation
 
 ### Requirements
-- **OS:** Linux / Windows
+- **OS:** Linux
 - **Python:** $\ge$ 3.8 (Recommended: Python 3.10 / 3.11)
 - **PyTorch:** $\ge$ 2.0.0
 - **TorchVision:** $\ge$ 0.15.0
@@ -129,7 +128,6 @@ To evaluate a trained checkpoint on the test set:
 ```bash
 python val.py
 ```
-*(Make sure to specify your checkpoint path `model_path` in `val.py`)*
 
 ### 4. Inference & Detection
 To run inference on test images:
