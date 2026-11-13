@@ -144,6 +144,3 @@ To run inference on test images:
 ```bash
 python detect.py
 ```
-*(Make sure to specify your checkpoint path `model_path` and image source in `detect.py`)*
-
-```
