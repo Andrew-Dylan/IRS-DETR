@@ -1,7 +1,5 @@
 # IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea–Air Backgrounds
 
-Official implementation of **IRS-DETR** (IEEE Geoscience and Remote Sensing Letters).
-
 ---
 
 ## 📖 Introduction
@@ -150,18 +148,4 @@ python detect.py
 ```
 *(Make sure to specify your checkpoint path `model_path` and image source in `detect.py`)*
 
----
-
-## 📝 Citation
-
-If you find this work or code repository useful for your research, please consider citing:
-
-```bibtex
-@article{tang2025irs,
-  title={IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea-Air Backgrounds},
-  author={Tang, Chunming and Ji, Zhuangzhi},
-  journal={IEEE Geoscience and Remote Sensing Letters},
-  year={2025},
-  publisher={IEEE}
-}
 ```
