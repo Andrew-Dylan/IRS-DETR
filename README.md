@@ -1,13 +1,5 @@
 # IRS-DETR: Efficient Infrared Ship Detection Transformer for Complex Sea–Air Backgrounds
 
-## 📖 Introduction
-
-Infrared ship detection in maritime surveillance often suffers from complex sea-air backgrounds, heavy sea clutter, strong waves, and small targets with weak textures. Standard downsampling and conventional attention mechanisms either lose tiny targets or introduce high computational overhead.
-
-**IRS-DETR** is a lightweight real-time Transformer detector based on the RT-DETR framework designed to achieve high detection accuracy while maintaining real-time inference speed in complex maritime environments.
-
----
-
 ## 📂 Project Structure
 
 ```text
