@@ -35,6 +35,7 @@ IRS-DETR/
 - **TorchVision:** $\ge$ 0.15.0
 - **CUDA:** 11.8 / 12.1 or newer
 
+
 ### Setup Steps
 
 1. **Clone the repository:**
